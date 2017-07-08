@@ -1,0 +1,25 @@
+.task {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #EEE;
+    margin: auto;
+    text-align: left;
+}
+
+.task div {
+    height: 24px;
+    line-height: 1.5em;
+}
+
+.task-indicator {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: red;
+}
+
+.task-indicator.is-active {
+    background: green;
+}
